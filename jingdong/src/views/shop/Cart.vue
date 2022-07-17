@@ -13,7 +13,8 @@
         >
           <span
             class="product__header__icon iconfont"
-            v-html="calculations.allChecked ? '&#xe652;': '&#xe667;'"
+            v-html="calculations.allChecked? '&#xe652;': '&#xe667;'"
+         
           >
           </span>
           全选
@@ -81,7 +82,7 @@
 import { computed, ref } from 'vue'
 import { useStore } from 'vuex'
 import { useRoute } from 'vue-router'
-import { useCommonCartEffect } from './commonCartEffect'
+import { useCommonCartEffect } from '../effects/cartEffects'
 
 // 获取购物车信息逻辑
 const useCartEffect = (shopId) => {

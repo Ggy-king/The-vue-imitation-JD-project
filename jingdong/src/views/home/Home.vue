@@ -7,13 +7,13 @@
     <Nearby />
   </div>
     <!-- 底部导航栏部分 -->
-    <Docker />
+    <Docker :currentIndex="0"/>
 </template>
 
 <script>
 import Staticpart from './Staticpart'
 import Nearby from './Nearby'
-import Docker from './Docker'
+import Docker from '../../components/Docker'
 
 export default {
     name:'Home',
