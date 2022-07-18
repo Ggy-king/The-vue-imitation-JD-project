@@ -15,7 +15,7 @@
     <div class="banner">
     <img 
       class="banner__img"
-      src="https://img.mukewang.com/62af3531094fe1c718000600.png" 
+      src="http://www.dell-lee.com/imgs/vue3/banner.jpg"
       alt="banner" />
     </div>
     <!-- 列表部分 nav -->

@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import '../../style/Viriables';
 .wrapper {
     // 可纵向滚动
     overflow-y: auto;
@@ -33,7 +33,7 @@ export default {
     bottom: .5rem;
     right: 0;
     padding: 0 .18rem .1rem .18rem;
-    background: #fff;
+    background: $bgColor;
   }
 
 .personal {
@@ -51,7 +51,7 @@ export default {
     font-size: .24rem;
     text-align: center;
     margin-top: .2rem;
-    color: #333;
+    color: $content-fontColor;
   }
 }
 </style>

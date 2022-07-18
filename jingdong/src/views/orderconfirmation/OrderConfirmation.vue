@@ -89,6 +89,7 @@ export default {
 @import '../../style/Viriables';
 @import '../../style/mixins'; 
 
+
 .wrapper {
     position: absolute;
     left: 0;
@@ -111,7 +112,7 @@ export default {
         position: relative;
         padding-top: .26rem;
         height: .24rem;
-        color: #FFF;
+        color: $bgColor;
         text-align: center;
         font-size: .16rem;
         &__back {
@@ -126,19 +127,19 @@ export default {
         right: .18rem;
         bottom: 0;
         height: 1.11rem;
-        background: #FFF;
+        background: $bgColor;
         border-radius: .04rem;
         &__title {
             padding: .16rem 0 .14rem .16rem;
             font-size: .16rem;
-            color: #333;
+            color: $content-fontColor;
             line-height: .22rem;
         }
         &__address {
             line-height: .2rem;
             padding: 0 .4rem 0 .16rem;
             font-size: .14rem;
-            color: #333;
+            color: $content-fontColor;
 
         }
         &__info {
@@ -147,7 +148,7 @@ export default {
                 line-height: .18rem;
                 margin-right: .06rem;
                 font-size: .12rem;
-                color: #666;
+                color: $medium-fontColor;
             }
         }
         &__icon {
@@ -155,7 +156,7 @@ export default {
             position: absolute;
             right: .35rem;
             top: 1.3rem;
-            color: #666;
+            color: $medium-fontColor;
             font-size: .2rem;
 
         }
@@ -164,7 +165,7 @@ export default {
 
 .products {
     margin: .16rem .18rem .1rem .18rem;
-    background: #fff;
+    background: $bgColor;
     &__title {
         width: 100%;
         padding-top: .2rem;
@@ -229,18 +230,18 @@ export default {
     display: flex;
     height: .49rem;
     line-height: .49rem;
-    background: #fff;
+    background: $bgColor;
 
     &__price {
         flex: 1;
         text-indent: .24rem;
         font-size: .14rem;
-        color: #333;
+        color: $content-fontColor;
     }
     &__btn {
         width: .98rem;
         background: #4FB0F9;
-        color: #fff;
+        color: $bgColor;
         text-align: center;
         font-size: .14rem;
     }

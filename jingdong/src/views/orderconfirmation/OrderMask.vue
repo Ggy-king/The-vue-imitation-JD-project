@@ -38,6 +38,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+@import '../../style/Viriables';
 .mask{
     z-index: 1;
     position: absolute;
@@ -53,19 +55,19 @@ export default {
         transform: translate(-50%,-50%);
         width: 3rem;
         height: 1.56rem;
-        background: #FFF;
+        background: $bgColor;
         border-radius: .04rem;
         text-align: center;
         &__title {
             margin: .24rem 0 0 0;
             line-height: .26rem;
             font-size: .18rem;
-            color: #333;
+            color: $content-fontColor;
         }
         &__desc {
             margin: .08rem 0 0 0;
             font-size: .14rem;
-            color: #666;
+            color: $medium-fontColor;
         }
         &__btns {
             display: flex;
@@ -86,7 +88,7 @@ export default {
             &--last {
                 margin-left: .12rem;
                 background: #4FB0F9;
-                color: #FFF;
+                color: $bgColor;
             }
         }
     }

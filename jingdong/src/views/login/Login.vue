@@ -113,7 +113,8 @@ export default {
         border: .01rem solid rgba(0,0,0,0.10);
         border-radius: .06rem;
         &__content {
-            line-height: .48rem;
+            margin-top: .12rem;
+            line-height: .22rem;
             border: none;
             outline: none;
             width: 100%;
